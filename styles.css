@@ -1,0 +1,60 @@
+html, body{
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:arial;
+    background-color: black;
+    
+}
+header {
+    display: inline;
+    justify-content: column;
+    align-content: center;
+    color: white;
+    text-align: center;
+    margin: 5px;   
+}
+img{
+    justify-content:center;
+    align-items: center;
+    width: 200px;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;      
+}
+li{
+    display: inline;    
+}
+.list-brasil{
+    border-radius: 5px;
+    background-color:rgb(3 104 19);
+    color: rgb(228, 194, 0);
+    width: 200px;
+    padding: 5px;
+    margin: 5px;  
+}
+.list-portugal{ 
+    border-radius: 5px;
+    background-color:#c30201;
+    color: rgb(228, 194, 0);
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+.destaque{
+    border-radius: 5px;
+    background-color: green;
+    color: rgb(228, 194, 0);
+}
+.current-page{
+background-color:blue ;
+color: white;
+}
